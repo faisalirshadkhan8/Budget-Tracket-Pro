@@ -1,22 +1,14 @@
-# Budget Tracker CLI App - Phase 4 Requirements
-# Advanced features with enhanced UI and functionality
+# Budget Tracker - Streamlit Web Application
+# Streamlit Cloud compatible dependencies
 
-# GUI Framework (included with Python standard library)
-# tkinter - No need to install, comes with Python
-
-# Core visualization dependencies
-matplotlib==3.7.2
-numpy==1.24.3
-
-# Streamlit web app dependencies
+# Core web framework
 streamlit>=1.28.0
+
+# Data handling and visualization
 pandas>=1.5.0
 plotly>=5.15.0
 
-# Phase 4 dependencies - Advanced Features
-tkcalendar==1.6.1      # Date picker widget
-Pillow==10.0.0          # Image processing for exports and themes
-reportlab==4.0.4        # PDF generation for export reports
+# Note: numpy is automatically installed as a dependency of pandas and plotly
 
 # Optional analytics dependencies
 # pandas==2.0.3
